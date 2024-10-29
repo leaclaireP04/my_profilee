@@ -1,0 +1,109 @@
+body{
+	background-color: lavenderblush;
+	color: hotpink;
+	font-family: helvetica;
+}
+
+h1 {
+	color: deeppink;
+  	font-family:  roboto;
+  	font-weight: 400;
+  	font-style: normal;
+
+}
+
+h2 {
+  color: deeppink;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+a {
+	text-decoration: none;
+	color: powderblue;
+}
+a:hover {
+	color: lightpink;
+}
+
+
+/*custom design with class*/
+
+.container { 
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width:760px) {
+	.container { 
+		width: 600px;
+	}
+}
+
+@media (max-width:500px) {
+	.container { 
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	
+}
+
+.btn-blue {
+	text-decoration: none;
+	background-color: deeppink;
+	color: white;
+	padding:15px 20px;
+	border-radius: 4px;
+	
+}
+
+.btn-blue:hover {
+	background-color: lightpink;
+	color: black;
+	
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: hotpink;
+	
+}
+
+.list-inline i:hover  {
+	color: pink;
+	
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	
+}
